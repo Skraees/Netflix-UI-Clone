@@ -62,7 +62,8 @@ body{
      font-size: var(--heading);
 }
 .con h3{
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
 font-size: var(--secondheading);
 }
 .input{
@@ -127,15 +128,6 @@ background-color: maroon;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: var(--secondheading);
 }
-/* .line{
-    
-        width: 100%;
-        height: 0.5rem;
-        position: absolute;
-        bottom: -0.5rem;
-        background-color: rgb(35,35,35);
-      
-} */
 .second{
     display: flex;
     justify-content: center;
@@ -165,6 +157,15 @@ ul{
 li{
     list-style: none;
   font-size: var(--secondheading);
+  text-decoration: none;
+  transition: all 1s;
+}
+li a{
+    text-decoration: none;
+}
+li :hover{
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 @media only screen and (max-width:500px){
         .head {
